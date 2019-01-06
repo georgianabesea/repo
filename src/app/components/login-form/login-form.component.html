@@ -1,0 +1,19 @@
+<div class="bg-img">
+  <div class="login-card">
+
+    <main class="login-content">
+
+      <h1 class="login-welcome-text">Welcome!</h1>
+      <form (submit)="login()" method="post" class="login-form">
+        <input type="text" autofocus placeholder="Username" name="username" class="login-input">
+        <input type="password" placeholder="Password" name="password" class="login-input">
+        <input type="submit" name="submit" placeholder="Log in" class="login-btn">
+      </form>
+      <div class="login__illustration">
+        <span class="signup-notice">Need an account? </span>
+        <a class="signup-link" routerLink="/signup">Sign up</a>
+      </div>
+    </main>
+
+  </div>
+</div>
